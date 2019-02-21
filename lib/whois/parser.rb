@@ -61,9 +61,7 @@ module Whois
     # @param  [String] message
     # @return [void]
     #
-    # @api private
-    # @private
-    def bug!(error, message)
+    def self.bug!(error, message)
       raise error, message.dup          +
           " Please report the issue at" +
           " http://github.com/weppos/whois-parser/issues"

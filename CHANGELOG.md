@@ -9,6 +9,9 @@ This project uses [Semantic Versioning 2.0.0](http://semver.org/).
 - CHANGED: Renamed WhoisDomainKg to WhoisKg (GH-48)
 
 
+#### Release 1.1.1
+- FIXED: Fix NoMethodError: undefined method `bug!' for Whois::Parser:Class.
+
 #### Release 1.1.0
 
 - NEW: Added .FM parser (GH-74). [Thanks @thomas07vt]
